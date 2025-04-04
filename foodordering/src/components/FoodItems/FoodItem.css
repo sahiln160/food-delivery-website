@@ -62,3 +62,24 @@
 .food-item-counter img{
     width: 30px;
 }
+
+.go-to-cart-btn {
+    position: relative;
+    left: 0px;
+    top: 18px;
+    transform: translateY(-50%);
+    background-color: #ff4e4e;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 25px;
+    cursor: pointer;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+
+.go-to-cart-btn:hover {
+    background-color: #ff3333;
+    transform: translateY(-50%) scale(1.05);
+}
